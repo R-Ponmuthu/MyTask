@@ -17,7 +17,7 @@
     <fragment
         android:id="@+id/pictureListFragment"
         android:name="com.example.task.ui.picture.fragment.PictureListFragment"
-        android:label="List Fragment"
+        android:label="Picture List"
         tools:layout="@layout/picture_list_fragment">
 
         <action

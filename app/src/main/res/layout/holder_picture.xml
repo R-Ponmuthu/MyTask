@@ -10,9 +10,6 @@
         android:id="@+id/picView"
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:text="0"
-        app:layout_constraintHorizontal_chainStyle="spread_inside"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toTopOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

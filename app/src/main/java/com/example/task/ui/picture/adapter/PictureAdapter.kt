@@ -1,5 +1,6 @@
 package com.example.task.ui.picture.adapter
 
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -39,6 +40,8 @@ class PictureAdapter(
         override fun bind() {
             val picture = pictures[adapterPosition]
             itemView.apply {
+
+                Log.e("Path", picture.path)
 
                 Glide
                     .with(context)
