@@ -6,4 +6,4 @@ import dagger.hilt.android.HiltAndroidApp
 
 // Required for Hilt dependency injection
 @HiltAndroidApp
-class TaskApplication : Application()
+class MyApplication : Application()

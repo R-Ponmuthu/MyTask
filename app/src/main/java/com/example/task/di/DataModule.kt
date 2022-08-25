@@ -2,6 +2,7 @@ package com.example.task.di
 
 import android.content.Context
 import com.example.task.data.db.LocationDao
+import com.example.task.data.db.PictureDao
 import com.example.task.data.db.TaskDatabase
 import dagger.Module
 import dagger.Provides
@@ -23,5 +24,10 @@ object DataModule {
     @Provides
     fun provideDao(database: TaskDatabase): LocationDao {
         return database.locationDao()
+    }
+
+    @Provides
+    fun providePictureDao(database: TaskDatabase): PictureDao {
+        return database.pictureDao()
     }
 }

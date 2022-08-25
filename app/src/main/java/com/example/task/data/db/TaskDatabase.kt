@@ -13,6 +13,7 @@ private const val DB_NAME = "task_database"
 abstract class TaskDatabase : RoomDatabase() {
 
     abstract fun locationDao(): LocationDao
+    abstract fun pictureDao(): PictureDao
 
     companion object {
         fun create(context: Context): TaskDatabase {
