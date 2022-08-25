@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!--Color palette for the day mode-->
+    <color name="PrimaryColor">#4285F4</color>
+    <color name="PrimaryLightColor">#4285F4</color>
+    <color name="PrimaryDarkColor">#000000</color>
+    <color name="SecondaryColor">#DB4437</color>
+    <color name="SecondaryLightColor">#CF847D</color>
+
+    <!--Components' custom colors-->
+    <color name="customCardviewSurfaceColor">#ffffff</color>
+    <color name="customDialogTitlePanelColor">#cfdbe1</color>
+
+    <!--Text colors-->
+    <color name="PrimaryTextColor">#000000</color>
+    <color name="SecondaryTextColor">#ffffff</color>
+    <color name="BlackTextColor">#000000</color>
+</resources>

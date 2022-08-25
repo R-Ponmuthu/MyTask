@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/grp1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/locationListFragment"
+            android:icon="@drawable/ic_location"
+            android:title="@string/location" />
+    </group>
+
+    <group
+        android:id="@+id/grp2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/pictureListFragment"
+            android:icon="@drawable/ic_picture"
+            android:title="@string/picture" />
+    </group>
+
+</menu>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Theme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/PrimaryColor</item>
+        <item name="colorPrimaryDark">@color/PrimaryLightColor</item>
+        <item name="colorPrimaryVariant">@color/PrimaryLightColor</item>
+        <item name="colorAccent">@color/SecondaryColor</item>
+        <item name="colorOnPrimary">@color/PrimaryTextColor</item>
+        <item name="colorOnSecondary">@color/SecondaryTextColor</item>
+        <item name="colorSecondaryVariant">@color/SecondaryLightColor</item>
+
+    </style>
+
+</resources>

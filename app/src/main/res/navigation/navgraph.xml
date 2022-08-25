@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navGraph"
+    android:label="main_fragment"
+    app:startDestination="@id/locationListFragment">
+
+    <fragment
+        android:id="@+id/locationListFragment"
+        android:name="com.example.task.ui.fragment.LocationListFragment"
+        android:label="Location List"
+        tools:layout="@layout/location_list_fragment">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/pictureListFragment"
+        android:name="com.example.task.ui.picture.fragment.PictureListFragment"
+        android:label="List Fragment"
+        tools:layout="@layout/picture_list_fragment">
+
+        <action
+            android:id="@+id/action_pictureListFragment_to_pictureFragment"
+            app:destination="@id/pictureFragment">
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/pictureFragment"
+        android:name="com.example.task.ui.picture.fragment.PictureFragment"
+        android:label="Picture Fragment"
+        tools:layout="@layout/picture_fragment">
+
+        <argument
+            android:name="picture"
+            app:argType="com.example.task.model.Picture" />
+
+        <action
+            android:id="@+id/action_pictureFragment_to_pictureListFragment"
+            app:destination="@id/pictureListFragment" />
+    </fragment>
+
+</navigation>
