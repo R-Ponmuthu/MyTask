@@ -113,7 +113,6 @@ class PictureListFragment : Fragment() {
     }
 
     private fun navigateToPictureFragment(picture: Picture) {
-
         val action =
             PictureListFragmentDirections.actionPictureListFragmentToPictureFragment(picture)
         findNavController().navigate(action)
